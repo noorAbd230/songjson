@@ -1,4 +1,4 @@
-axios({
+xios({
         method: 'post',
         url: url,
         data: stringData,
