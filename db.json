@@ -1,4 +1,11 @@
 {
+    axios({
+        method: 'post',
+        url: url,
+        data: stringData,
+        headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' },
+        maxContentLength: 500
+});
 "posts":[
     {
 "id":"Everything Blessed",
@@ -33,11 +40,5 @@
 },
 
 ]
-axios({
-        method: 'post',
-        url: url,
-        data: stringData,
-        headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' },
-        maxContentLength: 500
-});
+
 }
